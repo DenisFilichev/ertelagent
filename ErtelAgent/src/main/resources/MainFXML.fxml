@@ -6,7 +6,7 @@
 <AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320"
             xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="MainFXMLController">
+            fx:controller="controller.MainFXMLController">
     <Button layoutX="1" layoutY="1" text="Click Me!" onAction="#handleButtonAction" fx:id="button"/>
     <TextArea layoutX="50" layoutY="50" fx:id="textArea"/>
     <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label"/>

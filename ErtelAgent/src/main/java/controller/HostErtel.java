@@ -1,3 +1,4 @@
+package controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -77,7 +78,7 @@ public class HostErtel {
 
     @Override
     public String toString() {
-        return "HostErtel{" +
+        return "controller.HostErtel{" +
                 "id='" + id + '\'' +
                 ", type='" + type + '\'' +
                 ", model='" + model + '\'' +
